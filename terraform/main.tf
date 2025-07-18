@@ -29,7 +29,7 @@ module "s3_static" {
 }
 
 
-# S3 Policy
+
 
 module "s3_policy" {
     source = "./modules/s3_policy"
