@@ -30,7 +30,7 @@ module "s3_static" {
 
 
 
-# s3_policy
+
 module "s3_policy" {
     source = "./modules/s3_policy"
     website-bucket1357911 = "s3_bucket_policy"
