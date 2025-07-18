@@ -14,13 +14,13 @@ module "s3" {
 }
 
 
-module "cloudfront"{
-    source = "./modules/cloudfront"
-    s3_bucket_name = module.s3_static.bucket_name
-    default_root_object = "index.html"
-    price_class = "PriceClass_All"
-    RESOURCES_PREFIX = var.RESOURCES_PREFIX
-}
+# module "cloudfront"{
+#     source = "./modules/cloudfront"
+#     s3_bucket_name = module.s3_static.bucket_name
+#     default_root_object = "index.html"
+#     price_class = "PriceClass_All"
+#     RESOURCES_PREFIX = var.RESOURCES_PREFIX
+# }
 
 module "s3_static" {
     source = "./modules/s3_static"
