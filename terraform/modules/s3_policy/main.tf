@@ -14,7 +14,7 @@ resource "aws_s3_bucket_policy" "secure_policy" {
         Resource = "arn:aws:s3:::${var.RESOURCES_PREFIX}-${var.website-bucket1357911}/*",
         Condition = {
           StringEquals = {
-            "AWS:SourceArn" = var.cloudfront_distribution_arn
+            # "AWS:SourceArn" = var.cloudfront_distribution_arn
           }
         }
       }
