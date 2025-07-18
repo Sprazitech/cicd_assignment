@@ -8,9 +8,9 @@ output "bucket_policy_id" {
 }
 
 
-output "cloudfront_arn" {
-  value = module.cloudfront.cloudfront_arn
-}
+# output "cloudfront_arn" {
+#   value = module.cloudfront.cloudfront_arn
+# }
 
 output "bucket_name" {
   value = module.s3_static.bucket_name
