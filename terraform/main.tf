@@ -6,12 +6,12 @@ module "ec2" {
 }
 
 
-# module "s3" {
-#     source = "./modules/s3"
-#     ENV = var.ENV
-#     cicd-bucket346820 = "s3-bucket"
-#     RESOURCES_PREFIX = var.RESOURCES_PREFIX
-# }
+module "s3" {
+    source = "./modules/s3"
+    ENV = var.ENV
+    cicd-bucket346820 = "s3-bucket"
+    RESOURCES_PREFIX = var.RESOURCES_PREFIX
+}
 
 
 module "cloudfront"{
