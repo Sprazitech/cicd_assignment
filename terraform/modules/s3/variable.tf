@@ -1,4 +1,4 @@
-variable "cicd-bucket24682" {
+variable "cicd-bucket346820" {
     type = string
   
 }

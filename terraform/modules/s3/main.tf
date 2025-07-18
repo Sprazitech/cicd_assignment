@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "cicd" {
- bucket =  "${var.RESOURCES_PREFIX}-${var.cicd-bucket24682}"
+ bucket =  "${var.RESOURCES_PREFIX}-${var.cicd-bucket346820}"
   force_destroy = true
 
   tags = {

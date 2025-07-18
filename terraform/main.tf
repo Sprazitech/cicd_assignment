@@ -9,7 +9,7 @@ module "ec2" {
 module "s3" {
     source = "./modules/s3"
     ENV = var.ENV
-    cicd-bucket24682 = "s3-bucket"
+    cicd-bucket346820 = "s3-bucket"
     RESOURCES_PREFIX = var.RESOURCES_PREFIX
 }
 
@@ -24,7 +24,7 @@ module "cloudfront"{
 
 module "s3_static" {
     source = "./modules/s3_static"
-    bucket_name ="website-bucket1357911"
+    bucket_name ="website-bucket133579110"
     RESOURCES_PREFIX = var.RESOURCES_PREFIX
 }
 
