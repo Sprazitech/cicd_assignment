@@ -35,7 +35,8 @@ module "s3_policy" {
     source = "./modules/s3_policy"
     website-bucket1357911 = "s3_bucket_policy"
     RESOURCES_PREFIX = var.RESOURCES_PREFIX
-    cloudfront_distribution_arn = module.cloudfront.cloudfront_arn
+    # cloudfront_distribution_arn = module.cloudfront.cloudfront_arn
+
 
 
 }
