@@ -1,3 +1,4 @@
+# Statefile
 terraform {
   backend "s3" {
     encrypt = true
@@ -7,3 +8,4 @@ terraform {
     dynamodb_table = "terraformlocks"
   }
 }
+
